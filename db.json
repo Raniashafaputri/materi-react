@@ -1,0 +1,41 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Hoodie Polos",
+        "price": 250000
+      },
+      {
+        "id": 2,
+        "title": "Baju Partai",
+        "price": 150000
+     
+      }
+    ],
+      "products":[ 
+      {
+        "id": 1,
+        "nama": "Baju anak cwo",
+        "img": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//107/MTA-48825296/no_brand_bajukiddie_gent_set_baju_setelan_sport_casual_anak_cowok_korea_import_full01_ge4rjlpy.jpg",
+        "price": 349.100
+      },
+      {
+        "id": 1,
+        "nama": "Baju anak cwe",
+        "img": "https://down-id.img.susercontent.com/file/a06d1d0e8121114401ae5669b306fc71",
+        "price": 349.100
+      },
+      {
+        "id": 2,
+        "nama": "Baju wanita",
+        "img": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//91/MTA-42091452/no_brand_atasan_blouse_cillaris_import-blouse_cotton_korean_style-baju_wanita_cantik_unik_full02_1b9bfb35.jpg",
+        "price":287.000
+      },
+      {
+        "id": 2,
+        "nama": "Baju pria",
+        "img":"https://img.ws.mms.shopee.co.id/832996764ef0672b9593b272d8761c18" ,
+        "price":190.000
+      }
+    ]
+  }

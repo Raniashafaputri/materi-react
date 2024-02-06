@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom";
+import Tugas from './components/Tugas';
+import NavbarCom from "./components/navbar";
+import Detail  from "./components/Detail";
+import Home from "./components/Home";
+import Json from './pages/json';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> {/* Perbaiki disini */}
+      <Router> {/* Ganti BrowserRouter menjadi Router */}
+        <main>
+          {/* <Json /> */}
+          <NavbarCom />
+          <Switch>
+            <Route path="/" component={Home} exact/>
+            {/* <Route path="/Home" exact component={Home} /> */}
+            <Route path="/Detail" component={Detail} exact /> {/* Ganti path yang sesuai */}
+          </Switch>
+        </main>
+      </Router>
     </div>
   );
 }

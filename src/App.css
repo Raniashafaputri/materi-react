@@ -36,3 +36,150 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #20c4bc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Home section */
+.home {
+  background-color: #f2f2f2;
+  height: 100vh;
+  top: 0;
+  padding: 250px 0 100px 0;
+  background-image:'../assets/img/Gambar toko.jpg' ;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home .tagline {
+  color: #f2f2f2;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 9px 10px;
+  font-size: 20px;
+  margin-bottom: 18px;
+  display: inline-block;
+  background: linear-gradient(90.21deg, rgba(38,159,147, 0.5) -5.91%, rgba(26, 2, 131, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.home h1{
+  color:#282c34;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  font-size: 50px;
+  line-height: 1em;
+  margin-bottom: 20px;
+  display: block;
+  width: 90%;
+}
+
+.home p{
+  color: #b8b8b8;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  line-height: 1.5em;
+  width: 90%;
+}
+.home .image{
+  width: 100%;
+}
+
+.home .image img{
+  animation: updown 3 linear infinite;
+}
+
+/* tampilan.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* tampilan.css */
+
+/* Menambahkan padding pada bagian atas dan bawah header */
+header {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+/* Mengatur margin bawah pada elemen h2 dan p */
+h2,
+p {
+  margin-bottom: 20px;
+}
+
+/* Menambahkan padding pada elemen dengan kelas img-container */
+.img-container {
+  padding: 10px;
+}
+
+/* Mengatur lebar maksimum gambar produk */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Menambahkan margin bawah pada elemen dengan kelas intro-button */
+.intro-button {
+  margin-bottom: 20px;
+}
+
+/* Menambahkan padding pada bagian atas dan bawah section yang memiliki background */
+.page-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Menambahkan background dan padding pada bagian footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+}
+
+/* Mengatur lebar maksimum kontainer */
+.container {
+  max-width: 1140px;
+}
+
+/* Mengatur spasi antar kolom pada produk */
+.col-lg-4 {
+  margin-bottom: 30px;
+}
+
+/* Memberikan efek hover pada gambar produk */
+.img-container:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
